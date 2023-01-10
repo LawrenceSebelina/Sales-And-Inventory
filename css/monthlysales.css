@@ -1,0 +1,15 @@
+table.dataTable tfoot .th1 {
+    text-align: left;
+}
+
+table.dataTable tfoot .th3 {
+    text-align: right;
+}
+
+.dataTable tbody tr td:nth-child(3)  {
+    text-align: right;
+}
+
+table tfoot {
+    display: table-row-group;
+}

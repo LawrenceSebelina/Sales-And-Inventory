@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Inter', sans-serif;
+}
+
+body{
+  background: #dfdfdf;
+}
+
+.wrapper{
+  display: flex;
+  max-width: 600px;
+  width: 100%;
+  height: 380px;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.wrapper .left{
+  width: 50%;
+  height: 100%;
+  padding: 30px;
+}
+
+.wrapper .right{
+  width: 50%;
+  height: 100%;
+}
+
+.wrapper .left{
+  background: #494f57;
+}
+
+.wrapper .left img{
+  display: block;
+  width: 240px;
+  padding-top: 10px;
+  margin: 25px auto 0;
+}
+
+.wrapper .right{
+  background: #fff;
+}
+
+.wrapper .right .tabs ul li{
+  display: inline-block;
+  margin: 5px;
+  padding: 25px 10px;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.wrapper .right .tabs ul img{
+  border-radius: 50%;
+}
+
+.wrapper .right .tabs ul li.active{
+  border-bottom: 2px solid #494f57;
+}
+
+.wrapper .right .login{
+  margin-top: 30px;
+  padding: 20px;
+  padding-left: 30px;
+}
+
+.wrapper .right .input_field{
+  margin-bottom: 15px;
+}
+
+.wrapper .right .input_field .input{
+  width: 80%;
+  padding: 10px 15px;
+  border: 0;
+  font-size: 12px;
+  background: #dfdfdf;
+}
+
+

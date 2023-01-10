@@ -1,0 +1,38 @@
+div.dt-buttons {
+    float: right;
+    padding-bottom: 10px;
+}
+
+.table td, .table th {
+    vertical-align: middle;
+}
+
+.dataTable th {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.box {
+    float: left;
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    clear: both;
+}
+
+.red {
+    background-color: #006400;
+}
+
+.green {
+    background-color: #ffc40c;
+}
+
+.blue {
+    background-color: #dc143c;
+}
+
+.orange {
+    background-color: #fd7e14;
+  }
